@@ -12,5 +12,5 @@ DATABASE_NAME=heart_prediction
   cd backend <br>
   pip install fastapi uvicorn motor python-dotenv passlib[bcrypt] jose pydantic[email]  pyjwt <br>
   uvicorn app.main:app --reload --host 0.0.0.0 --port 8080 (Nếu bị lỗi thì thử đổi port khác) <br>
-Truy cập vào Swagger để xem API: http://<<IP_address>>:8080/docs hoặc http://127.0.0.1:8000/docs
+Truy cập vào Swagger để xem API: http://<<IP_address>>:8080/docs hoặc http://127.0.0.1:8080/docs
 
