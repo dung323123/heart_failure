@@ -6,9 +6,9 @@
 ## Cài đặt FastAPI
 - Clone dự án về
 - Tạo file .env cùng cấp với folder "app", nội dung: 
-MONGO_URL = "mongodb+srv://<username>:m7lNjMGLn3mzAAAx@heartprediction.ursbr.mongodb.net/" <br>
+MONGO_URL = "mongodb+srv://<<username>>:m7lNjMGLn3mzAAAx@heartprediction.ursbr.mongodb.net/" <br>
 DATABASE_NAME=heart_prediction
-- Mở terminal và chạy các lệnh sau:
+- Mở terminal và chạy các lệnh sau: <br>
   cd backend <br>
   pip install fastapi uvicorn motor python-dotenv passlib[bcrypt] jose pydantic[email] <br>
   uvicorn app.main:app --reload --host 0.0.0.0 --port 8080 (Nếu bị lỗi thì thử đổi port khác) <br>
