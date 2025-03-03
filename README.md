@@ -1,7 +1,7 @@
 # heart_failure
 ## Cài đặt MongoDB để làm Database
 - Truy cập MongoDB Atlas để tạo tài khoản và đăng nhập
-- Tải MongoDB Compass để truy cập từ local. Nhấn "Add new connection", nhập vào ô URI chuỗi: "mongodb+srv://<<user_name>>:m7lNjMGLn3mzAAAx@heartprediction.ursbr.mongodb.net/" (thay username bằng tên đăng nhập đã tạo từ trước) <br>
+- Tải MongoDB Compass để truy cập từ local. Nhấn "Add new connection", nhập vào ô URI chuỗi: "mongodb+srv://<<user_name>>:m7lNjMGLn3mzAAAx@heartprediction.ursbr.mongodb.net/" (thay <<username>> bằng tên đăng nhập đã tạo từ trước) <br>
 ## Đảm bảo máy đã cài đặt Python 3.8+ và Node
 ## Cài đặt FastAPI
 - Clone dự án về
