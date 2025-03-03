@@ -10,7 +10,7 @@ MONGO_URL = "mongodb+srv://<<user_name>>:m7lNjMGLn3mzAAAx@heartprediction.ursbr.
 DATABASE_NAME=heart_prediction
 - Mở terminal và chạy các lệnh sau: <br>
   cd backend <br>
-  pip install fastapi uvicorn motor python-dotenv passlib[bcrypt] jose pydantic[email] <br>
+  pip install fastapi uvicorn motor python-dotenv passlib[bcrypt] jose pydantic[email]  pyjwt <br>
   uvicorn app.main:app --reload --host 0.0.0.0 --port 8080 (Nếu bị lỗi thì thử đổi port khác) <br>
-Truy cập vào Swagger để xem API:[ http://21.64.1.254:8080/docs](http://127.0.0.1:8000/docs
-)
+Truy cập vào Swagger để xem API: http://<<IP_address>>:8080/docs hoặc http://127.0.0.1:8000/docs
+
